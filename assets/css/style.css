@@ -91,6 +91,8 @@
 
 
 
+
+
 .div-con-imagen2 {
   position: relative;
   width: 100%;
@@ -774,6 +776,35 @@ body {
 
 
 
+
+
+/* Estilo personalizado para el botón "Ver más productos" */
+.btn-view-more {
+  background-color: #002740; /* Color rosado vibrante */
+  color: white;
+  padding: 12px 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 50px; /* Bordes redondeados */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none; /* Elimina el subrayado del enlace */
+  display: inline-flex;
+  align-items: center;
+  gap: 10px; /* Espacio entre el texto y el icono */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para resaltar el botón */
+}
+
+.btn-view-more:hover {
+  background-color: #48aff1; /* Color más oscuro al pasar el mouse */
+  transform: scale(1.05); /* Efecto de agrandamiento sutil */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada en hover */
+}
+
+.btn-view-more i {
+  font-size: 1.2rem;
+}
 
 
 
